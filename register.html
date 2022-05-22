@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register | Sign Up</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+    <header >
+        <nav>
+            <ul class="nav-container">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-container">
+
+            <div class="form-body">
+                <div class="form-header">
+                    <h2>Sign Up</h2>
+                </div>
+
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="fname" id="" placeholder="First Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lname" id="" placeholder="Last Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" name="phone" id="" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="">
+                            <option value="">None</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="binary">Binary</option>
+                            <option value="other">Prefer not to say</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="country">Country:</label>
+                        <input type="text" name="country" id="" placeholder="Country" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state/province">State/Province</label>
+                        <input type="text" name="state" id="" placeholder="State/Province" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="" placeholder="Username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="" placeholder="Password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" name="cpassword" id="" placeholder="Confirm Password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Sign Up">
+                    </div>
+
+                </form>
+            </div>
+    </section>
+</body>
+</html>
